@@ -5,10 +5,15 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
- * In this exercise we will play with {@link Collections#synchronizedList(List)} methods and compare them with {@link CopyOnWriteArrayList}.
+ * In this exercise we will play with
+ * {@link Collections#synchronizedList(List)} methods
+ * and compare them with {@link CopyOnWriteArrayList}.
  * <ul>
  * <li>Create instance of {@link List} and fill it.</li>
- * <li>Create class {@link Printer} that implements {@link Runnable} and will remove values to list and sleep for some random time.</li>
+ * <li>Create class {@link Printer} that implements
+ * {@link Runnable} and will remove values from list.</li>
+ * <li>Create class {@link Clerk}
+ * that implements {@link Runnable} and will add values to list.</li>
  * <li>Run this classes and observe results</li>
  * </ul>
  *
