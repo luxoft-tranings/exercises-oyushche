@@ -1,5 +1,7 @@
 package com.luxoft.jva.multithreading.ch06_atomic;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  * In this exercise we will play volatile ping-pong:
  * <ul>
